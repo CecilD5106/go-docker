@@ -11,5 +11,5 @@ func pong(c *gin.Context) {
 func main() {
 	r := gin.Default()
 	r.GET("/ping", pong)
-	r.Run(":8000")
+	r.Run(":3000")
 }
